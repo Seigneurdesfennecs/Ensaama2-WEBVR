@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>      <!-- ici on fait appelle a la bilbliotheque aframe come 5.js -->
+  </head>   
+  
+  
+
+
+  <body>
+
+
+  
+    <a-scene>
+
+      <a--assets> 
+        <img id="basilic" src="./assets/images/9dbd46abbcc932c413d661451942c369.jpg">
+      </a--assets>
+
+
+
+
+        <!--formes-->              
+      <a-box  src="#basilic" repeat=" 4 4" position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>  <!--ici le repeat permet de literalement répéter la texture-->
+      <a-sphere  src="#basilic" position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> <!--la couleur joue comme un filtre pour la texture-->
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+   
+      
+    
+    
+        <!--environment-->
+      <a-plane position="0 2 -7" rotation="0 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="8" color="#D6CEA5"></a-plane>                                              </a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </a-scene>
+
+
+
+    
+  </body>
+</html>    
+
+

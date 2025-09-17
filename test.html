@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>      <!-- ici on fait appelle a la bilbliotheque aframe come 5.js -->
+  </head>   
+  
+  
+
+
+  <body>
+
+
+  
+    <a-scene>
+
+      <a--assets> 
+        <img id="basilic" src="./assets/images/9dbd46abbcc932c413d661451942c369.jpg">
+        <img id="herbe"    src="/assets/images/minecraft_grass_block_texture_by_psddude_df8r26t-fullview.jpg">
+      </a--assets>
+
+
+
+
+        <!--formes-->              
+      <a-box  src="#basilic" repeat=" 4 4" position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>  <!--ici le repeat permet de literalement répéter la texture-->
+      <a-sphere  src="#herbe" position="0 1.25 -5" radius="1.25" ></a-sphere> <!--la couleur joue comme un filtre pour la texture-->
+    
+                                           
+      <a-sky color="#ECECEC"></a-sky>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </a-scene>
+
+
+
+    
+  </body>
+</html>    
+
