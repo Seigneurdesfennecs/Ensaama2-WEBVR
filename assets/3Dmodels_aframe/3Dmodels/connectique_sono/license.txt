@@ -1,0 +1,11 @@
+Model Information:
+* title:	Connectique sono
+* source:	https://sketchfab.com/3d-models/connectique-sono-24b76feed9a340dc9131b7d8d00ad506
+* author:	Wazahole (https://sketchfab.com/Wazahole)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Connectique sono" (https://sketchfab.com/3d-models/connectique-sono-24b76feed9a340dc9131b7d8d00ad506) by Wazahole (https://sketchfab.com/Wazahole) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

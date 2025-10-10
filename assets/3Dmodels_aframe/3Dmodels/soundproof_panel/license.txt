@@ -1,0 +1,11 @@
+Model Information:
+* title:	soundproof panel
+* source:	https://sketchfab.com/3d-models/soundproof-panel-f62122712d5f47b3a6b67120acb39f1f
+* author:	ukra174 (https://sketchfab.com/ukra174)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "soundproof panel" (https://sketchfab.com/3d-models/soundproof-panel-f62122712d5f47b3a6b67120acb39f1f) by ukra174 (https://sketchfab.com/ukra174) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
