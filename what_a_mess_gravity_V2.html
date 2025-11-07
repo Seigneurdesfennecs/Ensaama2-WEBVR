@@ -34,95 +34,116 @@
       <a-asset-item id="pc_cable" src="./assets/3Dmodels_aframe/3Dmodels/low_poly_pc_cable/scene.gltf"></a-asset-item>
       <a-asset-item id="soundproof_panel" src="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf"></a-asset-item>
       <a-asset-item id="standing_desk" src="./assets/3Dmodels_aframe/3Dmodels/standing_desk/scene.gltf"></a-asset-item>
-      <a-asset-item id="panneau_stop" src="./assets/3Dmodels_aframe/3Dmodels/stop/scene.gltf"></a-asset-item>
+     <a-asset-item id="k1" src="./assets/3Dmodels_aframe/3Dmodels/SUB.obj"></a-asset-item>
+      <a-asset-item id="k2" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_2509987_Mic+Stand.obj"></a-asset-item>
+      <a-asset-item id="k3" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_3618197_CubeL_3.fbx"></a-asset-item>
+      <a-asset-item id="k4" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_3692224_Headphones.obj"></a-asset-item>
+     <a-asset-item id="k5" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_3789231_Greenscreen.obj"></a-asset-item>
+     <a-asset-item id="k6" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_6275215_hanging_monitor_fbx/hanging_monitor/hanging_monitor.fbx"></a-asset-item>
+    <a-asset-item id="k7" src="./assets/3Dmodels_aframe/3Dmodels/wires/scene.gltf"></a-asset-item>
+    
 
-     
-     
-     
-     
-     
-      <a-entity gltf-model="#cables" position="0 3 -2" scale="0.25 0.25 0.25" rotation="0 90 0"static-body></a-entity>
-      <a-entity gltf-model="#connectique_sono" position="-0.5 3 -1" scale="0.35 0.35 0.35" rotation="0 180 0" static-body></a-entity>
-      <a-entity gltf-model="#keyboard" position="1 3 -1.5" scale="0.2 0.2 0.2" rotation="0 45 0" static-body></a-entity>
-      <a-entity gltf-model="#set" position="-1.2 3 -2.5" scale="0.28 0.28 0.28" rotation="0 60 0" static-body></a-entity>
 
+<a-entity light="angle: 64.41; color: #ffffff; decay: -1.28; distance: 3.87; intensity: 0.83; penumbra: 1; type: point; shadowBias: 0.26; shadowCameraFar: 490.69; shadowCameraFov: 85.16; shadowCameraBottom: -4.4; shadowCameraLeft: -5.22; shadowMapHeight: 510.67; shadowMapWidth: 511.36; shadowRadius: 1.4" position="-0.07777 0.95207 -1.92704" rotation="0 -116.76000000000002 0"></a-entity>
+<a-entity light="angle: 64.41; decay: 4.7; distance: 1.64; intensity: 1; penumbra: 1; type: spot" position="-1.05128 2.66284 -3.09765" rotation="0 -116.76000000000002 0"></a-entity>
+<a-entity light="angle: 64.41; decay: 4.7; distance: 1.64; intensity: 1; penumbra: 1; type: spot" position="-1.05128 2.66284 -3.09765" rotation="0 -116.76000000000002 0"></a-entity>
+<a-entity light="angle: 64.41; color: #b5cacc; decay: 4.7; distance: 1.64; intensity: 0.13; penumbra: 1; castShadow: true" position="0.6098 2.98483 -0.1132" rotation="1.29 -15.720000000000002 -15.310000000000002"></a-entity>
+<a-entity light="angle: 64.41; decay: 4.7; distance: 1.64; intensity: 1; penumbra: 1; type: spot" position="-0.87503 2.66284 -0.74849" rotation="1.29 -15.720000000000002 -15.310000000000002"></a-entity>
+    <a-asset-item id="k1-model" src="./assets/3Dmodels_aframe/3Dmodels/SUB.obj"></a-asset-item>
+    <a-asset-item id="k2-model" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_2509987_Mic+Stand.obj"></a-asset-item>
+    <a-asset-item id="k3-model" src="./assets/3Dmodels_aframe/3Dmodels/uploads_files_3618197_CubeL_3.fbx"></a-asset-item>
+      <a-entity obj-model="obj: #k5-model"  position="0 0 -3"rotation="0 45 0" scale="0.1 0.1 0.1" color="#00FF00">
+  </a-entity>
+<a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/wires/scene.gltf" position="-0.39354 1.66138 -1.04337" scale="0.05 0.05 0.05" rotation="0 90 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/wires/scene.gltf" position="-0.39354 2.48337 -1.04337" scale="0.05 0.02 0.05" rotation="0 90 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/wires/scene.gltf" position="-0.39354 2.48337 -1.04337" scale="0.05 0.02 0.05" rotation="0 90 0"></a-entity>
+<a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/wires/scene.gltf" position="-0.03162 2.55463 -1.50322" scale="0.03 0.02 0.02" rotation="0 -22.75 0.01"></a-entity>
+  <a-entity fbx-model="#k6-model" position="0 1.2 -3"rotation="0 45 0"scale="0.05 0.05 0.05"></a-entity>
+
+
+     <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/cables/scene.gltf" position="1.47 2.8 -2.67507" scale="0.065 0.045 0.035" rotation="-7.250000000000001 0.07 -30.87" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/connectique_sono/scene.gltf" position="1.49134 0.06293 -0.74121" scale="2 2 2" rotation="0 -90 0" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/keyboard/scene.gltf" position="1.02034 0.82586 -2.36818" scale="0.02 0.02 0.02" rotation="0 45 0" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/cables/scene.gltf" position="1.5003 2.46597 -1.36298" scale="0.14 0.14 0.13" rotation="-3.06 0.72 -18.71" static-body="sphereRadius: NaN" velocity=""></a-entity>
+</a-entity>
+</a-entity>
 
 
 
 <a-entity id="mousse isolante m1 " position="2.02222 0.00923 -2.01159" scale="1 1.86 0.99" rotation="-0.24 90 -0.17">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.05" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.02" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.02" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.869 0" scale="0.87 0.67 0.99">
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.11" static-body="sphereRadius: NaN" velocity=""></a-entity>
  </a-entity>
  </a-entity>
 
 
  <a-entity id="mousse isolante m3 " position="0.06455 0.00923 0.00595" scale="1 1.86 0.99" rotation="-0.24 0 -0.35">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.05" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.07" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.05" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.10" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.869 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.13" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.12" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
  </a-entity>
  </a-entity>
 
- <a-entity id="mousse isolante m2 " position="-2.00387 0.00923 -1.93964" scale="1 1.86 0.99" rotation="-0.24 -90 -0.17">
+<a-entity id="mousse isolante m2 " position="-2.00387 0.00923 -1.93964" scale="1 1.86 0.99" rotation="-0.24 -90 -0.17">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      </a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
+       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.07" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.05" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      </a-entity>
+    </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.869 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.13" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.08" static-body="sphereRadius: NaN" velocity=""></a-entity>
  </a-entity>
  </a-entity>
 
 <a-entity id="mousse isolante m4 " position="0.06411 0.01782 -3.97621" scale="1 1.86 0.99" rotation="-0.24 180 -0.17">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.11" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.09" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.13" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.06" static-body="sphereRadius: NaN" velocity=""></a-entity>
       </a-entity>
       <a-entity id="mousse isolante" position="0.22 0.869 0" scale="0.87 0.67 0.99">
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
-      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.11" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.13" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.07" static-body="sphereRadius: NaN" velocity=""></a-entity>
  </a-entity>
  </a-entity>
 
-<a-entity id="mousse isolante m5 " position="0.08546 -0.44216 -0.50492" scale="1 1.86 0.99" rotation="90 180 0">
+  <a-entity id="mousse isolante m5 " position="0.08546 -0.44216 -0.50492" scale="1 1.86 0.99" rotation="90 180 0">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
@@ -142,7 +163,7 @@
 
 
 
- <!-- <a-entity id="mousse isolante m6 " position="0.03373 3.50961 -3.54958" scale="1 1.86 0.99" rotation="-90 180 -0.17">
+     <a-entity id="mousse isolante m6 " position="0.03373 3.50961 -3.54958" scale="1 1.86 0.99" rotation="-90 180 -0.17">
      <a-entity id="mousse isolante" position="0.22 0.06923 0" scale="0.87 0.67 0.99">
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="0.90155 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
@@ -158,33 +179,23 @@
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-0.29186 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
       <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/soundproof_panel/scene.gltf" position="-1.48149 0.5 -3.5" scale="0.03 0.03 0.03" static-body="sphereRadius: NaN" velocity=""></a-entity>
  </a-entity>
- </a-entity>-->
+ </a-entity>
 
 
-
-
-
-
-
-
-
-
-
-    
+ <a-entity>
+  <a-plane src="#sol" position="-1.5 1.5 -2.0" rotation="0 90 0" width="3.5" height="3.5" color="#7BC8A4" static-body></a-plane>
+  <a-plane src="#sol" position="1.5 1.5 -2" rotation="0 -90 0" width="3.5" height="3.5" color="#7BC8A4" static-body></a-plane>
+  <a-plane src="#sol" position="0 0 -2" rotation="-90 0 0" width="3.5" height="3.5" color="#7BC8A4" static-body></a-plane>
+  <a-plane src="#sol" position="0 1.5 -3.5" rotation="180 0 0" width="3.5" height="3.5" color="#7BC8A4" static-body></a-plane>
+  <a-plane src="#sol" position="0 1.5 -0.5" rotation="0 0 0" width="3.5" height="3.5" color="#7BC8A4" static-body></a-plane>
 </a-entity>
-     
-      <a-entity gltf-model="#panneau_stop" position="0.8 3 -2.2" scale="0.32 0.32 0.32" rotation="0 200 0" static-body></a-entity>
-      <a-entity gltf-model="#kodoma" position="-0.7 3 -3.2" scale="0.25 0.25 0.25" rotation="0 270 0" static-body></a-entity>
-      <a-entity gltf-model="#kodoma" position="0 3 -3" scale="0.18 0.18 0.18" rotation="0 60 0" enable-physics-on-load></a-entity>
 
-      <!-- Plan statique -->
-      
-      <a-plane position="-1.5 1.5 -2.0" rotation="360 90 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
-      <a-plane position="1.5 1.5 -2" rotation="360 -90 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
-      <a-plane position="0.0 3 -2" rotation="90 0 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
-      <a-plane src="#sol"position="0 0 -2" rotation="-90 0 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
-      <a-plane position="-0.0 1.5 -3.5" rotation="180 -180 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
-      <a-plane position="-0.0 1.5 -0.5" rotation="-180 0 0" width="3,5" height="3,5" color="#7BC8A4" static-body="sphereRadius: NaN" velocity=""></a-plane>
+
+  
+
+<a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/standing_desk/scene.gltf" position="1.09732 0 -1.97927" scale="0.75 0.75 1" rotation="-0.06 269.97 0" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/pioneer_cdj_3000/scene.gltf" position="1.25948 0.81793 -1.97684" scale="0.28 0.28 0.28" rotation="0 -90 0" static-body="sphereRadius: NaN" velocity=""></a-entity>
+      <a-entity gltf-model="./assets/3Dmodels_aframe/3Dmodels/low_poly_pc_cable/scene.gltf" position="1.22286 0.05 -2.88868" scale="0.19 0.18 0.18" rotation="0 -180 0" enable-physics-on-load="" velocity="" dynamic-body="mass: 1; shape: box; sphereRadius: NaN"></a-entity>
          <a-entity camera position="0 2 -2" look-controls wasd-controls="acceleration: 5"></a-entity>
       <!-- <a-sky src="./assets/images/nuit_étoilé.jpg"></a-sky>-->
     </a-scene>
